@@ -3,7 +3,6 @@ body {
 
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 
   color: #353c32;
@@ -60,6 +59,9 @@ main {
 .weather-app-details strong {
   color: #57ba68;
   font-weight: bold;
+}
+.weather-app-temperature-container {
+  display: flex;
 }
 footer {
   border-top: 1px solid rgb(235, 255, 238, 0.7);
