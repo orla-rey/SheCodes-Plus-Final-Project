@@ -1,8 +1,11 @@
 body {
   background-color: rgb(235, 255, 238, 0.7);
-  font-family: "Slabo 27px", serif;
-  font-weight: 400;
+
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
+
   color: #353c32;
 }
 a {
@@ -36,6 +39,27 @@ header {
   border-color: #9ac3a1;
   font-size: 18px;
   margin-left: 5px;
+}
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
+  margin: 0;
+  line-height: 48px;
+  font-size: 38px;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(53, 60, 50, 0.7);
+}
+.weather-app-details strong {
+  color: #57ba68;
+  font-weight: bold;
 }
 footer {
   border-top: 1px solid rgb(235, 255, 238, 0.7);
