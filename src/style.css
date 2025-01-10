@@ -5,7 +5,9 @@ body {
   font-style: normal;
   color: #353C32;
 }
-
+a {
+  color: #57ba68;
+}
 .weather-app {
   background-color: rgba(200, 255, 209, 70%);
   max-width: 600px;
@@ -39,4 +41,6 @@ header {
 footer {
   border-top: 1px solid rgb(235, 255, 238, 0.7);
   padding: 30px 0 0 0;
+  text-align: center;
+  color: rgb(53, 60, 50, 0.7);
 }
