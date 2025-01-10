@@ -3,7 +3,7 @@ body {
   font-family: "Slabo 27px", serif;
   font-weight: 400;
   font-style: normal;
-  color: #353C32;
+  color: #353c32;
 }
 a {
   color: #57ba68;
@@ -27,14 +27,13 @@ header {
   width: 75%;
   padding: 20px 25px;
   font-size: 18px;
-  
 }
-.search-form-button{
+.search-form-button {
   background-color: rgb(235, 255, 238, 0.7);
   padding: 18px 36px;
   border-radius: 10px;
- 
-  border-color: #9AC3A1;
+
+  border-color: #9ac3a1;
   font-size: 18px;
   margin-left: 5px;
 }
