@@ -52,7 +52,7 @@ main {
   font-size: 38px;
 }
 .weather-app-details {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: rgb(53, 60, 50, 0.7);
 }
@@ -62,6 +62,19 @@ main {
 }
 .weather-app-temperature-container {
   display: flex;
+}
+.weather-app-icon{
+  font-size: 46px;
+  margin-top: 22px;
+}
+.weather-app-temperature{
+  font-size: 86px;
+  font-weight: bold;
+  margin-left: 18px;
+}
+.weather-app-unit{
+  font-size: 26px;
+  margin-top: 20px;
 }
 footer {
   border-top: 1px solid rgb(235, 255, 238, 0.7);
